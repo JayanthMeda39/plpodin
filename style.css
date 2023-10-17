@@ -48,6 +48,7 @@ li{
 .maindesc{
     font-size: 48px;
     color: #f9faf8;
+    font-weight: 900;
 }
 .subtextclass{
     padding: 0%;
@@ -65,6 +66,98 @@ li{
 .buttonah{
     padding-top: 4px;
 }
-.advtimg{
+.rinfo{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex:1;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.twoheadertitle{
+    padding: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.imginfo{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.imginfochild{
+    width: 200px;
+    height: 160px;
+    border: 3px solid;
+    border-color: #3882f6;
+    border-radius: 6px;
+}
+.text{
+    max-width:206px;
+    padding: 2px;
+    color: #1F2937;
+}
+.quotecontainer{
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding: 140px;
+
+}
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    max-width: 760px;
+    font-style: italic;
+}
+#author{
+    text-align: right;
+    font-weight: 900;
+    font-style: normal;
+}
+.signup{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.advert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+    gap:58px
+}
+#advertmain{
+    color: #e5e7eb;
+    font-weight: 700;
+}
+#advertsub{
+    color:  #e5e7eb;
+}
+.signupbutton{
+    border: #f9faf8 solid 1px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    height: 70px;
 }
